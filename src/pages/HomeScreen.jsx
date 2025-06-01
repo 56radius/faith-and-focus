@@ -3,6 +3,7 @@ import { Church, Play } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { Badge } from "../components/ui/badge";
 
+import Services from "../components/services/Services";
 import Footer from "../components/footer/Footer";
 
 const HomeScreen = () => {
@@ -89,9 +90,9 @@ const HomeScreen = () => {
             </div>
         </section>
 
-    {/* Services section*/}
-    <div>
-        
+    {/* Services section */}
+    <div id="services"> 
+        <Services />
     </div>
 
     {/* Footer */}
