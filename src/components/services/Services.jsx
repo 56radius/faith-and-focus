@@ -5,8 +5,8 @@ const Services = () => {
           <section className="py-12 bg-white sm:py-16 lg:py-20">
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
-            <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj">Make every step user-centric</h2>
-            <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit</p>
+            <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj"> Our Services </h2>
+            <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8 font-pj"> What we offer </p>
         </div>
 
         <div className="grid grid-cols-1 mt-10 text-center sm:mt-16 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-3 md:gap-0 xl:mt-24">
@@ -17,7 +17,7 @@ const Services = () => {
                     <path d="M45 29H33V45H41C43.209 45 45 43.209 45 41V29Z" fill="#D4D4D8" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <h3 className="mt-12 text-xl font-bold text-gray-900 font-pj">Support</h3>
-                <p className="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <p className="mt-5 text-base text-gray-600 font-pj"> At Faith and Focus, we believe no one should walk alone in their spiritual journey. Our support team is available to pray with you, answer your questions, and guide you toward a deeper relationship with Christ through media and personal connection. </p>
             </div>
 
             <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200">
@@ -29,7 +29,7 @@ const Services = () => {
                     <path d="M28 1H37V10" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <h3 className="mt-12 text-xl font-bold text-gray-900 font-pj">Sales</h3>
-                <p className="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <p className="mt-5 text-base text-gray-600 font-pj"> Every donation and resource shared through Faith and Focus is a seed sown into the Kingdom. Our media store and content offerings help fund outreach initiatives, digital evangelism, and equipment that carry the gospel further than ever before. </p>
             </div>
 
             <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200">
@@ -40,7 +40,7 @@ const Services = () => {
                     <path d="M35 7H24V35H35V7Z" fill="#D4D4D8" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <h3 className="mt-12 text-xl font-bold text-gray-900 font-pj">Onboarding</h3>
-                <p className="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <p className="mt-5 text-base text-gray-600 font-pj"> Joining Faith and Focus means becoming part of a global movement. Whether you're a new believer, a volunteer, or a media partner, we have dedicated onboarding resources to help you find your place in our mission to share the love of Christ through digital platforms. </p>
             </div>
 
             <div className="md:p-8 lg:p-14 md:border-t md:border-gray-200">
@@ -55,7 +55,9 @@ const Services = () => {
                     <path d="M37 1H5C2.79086 1 1 2.79086 1 5V37C1 39.2091 2.79086 41 5 41H37C39.2091 41 41 39.2091 41 37V5C41 2.79086 39.2091 1 37 1Z" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <h3 className="mt-12 text-xl font-bold text-gray-900 font-pj">Product</h3>
-                <p className="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <p className="mt-5 text-base text-gray-600 font-pj">Our media content is created with excellence to inspire, uplift, and transform lives. From sermons to podcasts, devotionals to short films, every product we release is prayerfully designed to help people encounter God in everyday moments.
+
+</p>
             </div>
 
             <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200 md:border-t">
@@ -79,7 +81,7 @@ const Services = () => {
                     />
                 </svg>
                 <h3 className="mt-12 text-xl font-bold text-gray-900 font-pj">Quality</h3>
-                <p className="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <p className="mt-5 text-base text-gray-600 font-pj"> We are committed to high standards of production and spiritual impact. Each message, video, and broadcast reflects the excellence of God, ensuring that what we deliver is not only beautiful but also biblically sound and deeply meaningful. </p>
             </div>
 
             <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200 md:border-t">
@@ -88,7 +90,7 @@ const Services = () => {
                     <path d="M19 1C9.059 1 1 9.059 1 19H19V1Z" fill="#D4D4D8" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <h3 className="mt-12 text-xl font-bold text-gray-900 font-pj">Result</h3>
-                <p className="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <p className="mt-5 text-base text-gray-600 font-pj"> Lives transformed, souls saved, and hearts reignited—that’s the result we aim for. Through Faith and Focus, we’ve seen countless testimonies of people coming to Christ, families restored, and a new hunger for God's Word awakened across the globe. </p>
             </div>
         </div>
     </div>
