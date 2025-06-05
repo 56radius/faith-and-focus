@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import { Church, Play } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { Badge } from "../components/ui/badge";
@@ -7,6 +7,7 @@ import About from "../components/about/About";
 import Services from "../components/services/Services";
 import Testimonials from "../components/testimonials/Testimonials";
 import Footer from "../components/footer/Footer";
+import Articles from "../components/article/Articles";
 
 const HomeScreen = () => {
   return (
@@ -24,6 +25,7 @@ const HomeScreen = () => {
               <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors">About</a>
               <a href="#services" className="text-gray-700 hover:text-blue-600 transition-colors">Services</a>
               <a href="#testimonials" className="text-gray-700 hover:text-blue-600 transition-colors">Testimonials</a>
+              <a href="#articles" className="text-gray-700 hover:text-blue-600 transition-colors"> Articles </a>
             </nav>
           </div>
         </div>
@@ -56,23 +58,28 @@ const HomeScreen = () => {
         </div>
       </section>
 
-    {/* About Section */}
-    <div id="about">
+      {/* About Section */}
+      <div id="about">
         <About />
-    </div>
+      </div>
 
-    {/* Services section */}
-    <div id="services"> 
+      {/* Services Section */}
+      <div id="services">
         <Services />
-    </div>
+      </div>
 
-    {/* Testimonial section */}
-    <div id="testimonials"> 
+      {/* Testimonials Section */}
+      <div id="testimonials">
         <Testimonials />
-    </div>
+      </div>
 
-    {/* Footer */}
-    <Footer />
+      {/* Articles Section */}
+      <div id="articles">
+        <Articles />
+      </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
